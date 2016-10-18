@@ -1,0 +1,42 @@
+/*webkit-sassui-links Start*/
+/*webkit-sassui-links End*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+.test-webkit-sassui-links {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.test-webkit-sassui-links > .item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.test-webkit-sassui-links > .item + .item {
+  border-left: 1px solid #eee;
+}
+
+.test-webkit-sassui-links > .item {
+  padding: 0 10px;
+}
+
+.test-webkit-sassui-links > .item > a {
+  text-decoration: none;
+  color: #06c1ae;
+}

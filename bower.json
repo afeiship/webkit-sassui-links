@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-links",
+  "description": "Webkit sass ui module for links.",
+  "main": [
+    "dist/webkit-sassui-links.css",
+    "dist/webkit-sassui-links.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "links"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

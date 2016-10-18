@@ -1,0 +1,20 @@
+/*webkit-sassui-links Start*/
+@mixin webkit-sassui-links($inLineColor:#eee,$inItemPrefix:'.item') {
+  //Your mixin code goes here.
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  > #{$inItemPrefix} {
+    &+#{$inItemPrefix} {
+      border-left: 1px solid $inLineColor;
+    }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+}
+/*webkit-sassui-links End*/

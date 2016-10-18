@@ -1,0 +1,25 @@
+@import "../dist/webkit-sassui-links.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+.test-webkit-sassui-links {
+  @include webkit-sassui-links();
+  padding:10px 20px;
+  > .item {
+    padding:0 10px;
+    > a {
+      text-decoration: none;
+      color: #06c1ae;
+    }
+  }
+}
